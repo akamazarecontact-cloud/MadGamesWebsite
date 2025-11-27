@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MAD GAMES – Sală de Gaming Ploiești</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    />
+</head>
+<body>
+<header class="site-header">
+    <div class="container header-inner">
+        <a href="#hero" class="logo">
+            <!-- Dacă ai logo, pune src la imaginea ta -->
+            <!-- <img src="assets/logo-madgames.png" alt="Mad Games Logo"> -->
+            <div class="logo-circle">MG</div>
+            <div class="logo-text">
+                <span class="logo-title">MAD GAMES</span>
+                <span class="logo-subtitle">Gaming Lounge Ploiești</span>
+            </div>
+        </a>
+
+        <nav class="main-nav">
+            <a href="#hero">Acasă</a>
+            <a href="#despre-noi">Despre noi</a>
+            <a href="#produse">Produse</a>
+            <a href="#pachete">Pachete</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="header-contact">
+            <div class="phone-label">
+                <span>Contactează-ne</span>
+                <strong>0790 735 014</strong>
+            </div>
+            <a href="#contact" class="btn btn-outline small">Rezervă</a>
+        </div>
+
+        <button class="nav-toggle" aria-label="Deschide meniul">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</header>
+
+<main>
+    <!-- HERO -->
+    <section id="hero" class="hero-section">
+        <div class="gradient-orb orb-left"></div>
+        <div class="gradient-orb orb-right"></div>
+        <div class="container hero-inner">
+            <div class="hero-content reveal-on-scroll">
+                <p class="hero-kicker">SALĂ DE GAMING PLOIEȘTI</p>
+                <h1>MAD GAMES</h1>
+                <p class="hero-text">
+                    MAD GAMES a luat naștere din pasiunea pentru gaming și oferă cea mai bună experiență pe
+                    <strong>PS5</strong> și echipamente de ultimă generație, într-o atmosferă modernă și relaxată.
+                </p>
+                <div class="hero-actions">
+                    <a href="#pachete" class="btn btn-primary">Vezi pachetele</a>
+                    <a href="#contact" class="btn btn-ghost">Rezervă un loc</a>
+                </div>
+                <div class="hero-badges">
+                    <span>🎮 PS5 & Ecrane 4K</span>
+                    <span>🕹️ Echipamente premium</span>
+                    <span>💬 Atmosferă socială</span>
+                </div>
+            </div>
+
+            <div class="hero-visual reveal-on-scroll">
+                <div class="hero-card" id="hero-parallax">
+                    <div class="hero-glow"></div>
+                    <!-- Pune aici imaginea ta principală -->
+                    <!-- Exemplu: <img src="assets/hero-gamer.png" alt="Gamer Mad Games"> -->
+                    <div class="hero-avatar">
+                        <span class="mask-circle"></span>
+                        <span class="controller"></span>
+                    </div>
+                    <div class="hero-floating-tag">
+                        <span class="dot"></span>
+                        <span>Gaming Session Live</span>
+                    </div>
+                    <div class="hero-floating-stat">
+                        <strong>144Hz</strong>
+                        <span>Monitoare</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DESPRE NOI / BENEFICII -->
+    <section id="despre-noi" class="section padding-xl">
+        <div class="container">
+            <div class="section-header center reveal-on-scroll">
+                <p class="section-kicker">DE CE MAD GAMES</p>
+                <h2>Experiență de gaming de ultimă generație</h2>
+                <p class="section-text">
+                    Fie că vii cu prietenii, cu echipa de esports sau singur, la MAD GAMES găsești echipamente performante,
+                    confort maxim și o atmosferă făcută pentru a te relaxa și a câștiga.
+                </p>
+            </div>
+
+            <div class="feature-grid">
+                <article class="feature-card reveal-on-scroll">
+                    <div class="feature-icon">🎧</div>
+                    <h3>Echipamente de ultimă generație</h3>
+                    <p>
+                        Investim constant în console PS5, monitoare 4K/144Hz și accesorii premium pentru a oferi cea mai bună
+                        experiență de joc.
+                    </p>
+                </article>
+
+                <article class="feature-card reveal-on-scroll">
+                    <div class="feature-icon">🛋️</div>
+                    <h3>Ambianță modernă și confortabilă</h3>
+                    <p>
+                        Fotolii ergonomice, iluminare RGB și design modern – totul gândit pentru sesiuni lungi de gaming fără
+                        disconfort.
+                    </p>
+                </article>
+
+                <article class="feature-card reveal-on-scroll">
+                    <div class="feature-icon">👥</div>
+                    <h3>Loc pentru prieteni și competiții</h3>
+                    <p>
+                        Zone dedicate pentru party, competiții și evenimente speciale. Organizează-ți propriul turneu sau LAN party.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUSE / SHOP MIC -->
+    <section id="produse" class="section padding-xl section-dark">
+        <div class="container">
+            <div class="section-header reveal-on-scroll">
+                <p class="section-kicker">ECHIPAMENTE & ACCESORII</p>
+                <h2>Produse disponibile în sală</h2>
+                <p class="section-text">
+                    O selecție de periferice și accesorii de gaming pe care le poți testa în sală și, la cerere, comanda prin noi.
+                </p>
+            </div>
+
+            <div class="product-toolbar reveal-on-scroll">
+                <div class="product-toolbar-left">
+                    <span class="chip active">Toate</span>
+                    <span class="chip">Periferice</span>
+                    <span class="chip">Monitoare</span>
+                    <span class="chip">Audio</span>
+                </div>
+                <div class="product-toolbar-right">
+                    <span class="toolbar-label">Produse demo – orientativ</span>
+                </div>
+            </div>
+
+            <div id="product-list" class="product-grid">
+                <!-- Umplut din script.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- PACHETE -->
+    <section id="pachete" class="section padding-xl">
+        <div class="container">
+            <div class="section-header center reveal-on-scroll">
+                <p class="section-kicker">PACHETE GAMING</p>
+                <h2>Alege experiența potrivită pentru tine</h2>
+                <p class="section-text">
+                    Prețurile sunt orientative pentru concept. Poți ajusta orele și tarifele în funcție de ce stabilești cu șeful.
+                </p>
+            </div>
+
+            <div class="pricing-grid">
+                <article class="pricing-card reveal-on-scroll">
+                    <p class="pricing-tag">Start</p>
+                    <h3>Bronze Session</h3>
+                    <p class="pricing-price">29 RON<span>/ persoană</span></p>
+                    <ul class="pricing-features">
+                        <li>1 oră de joc pe PS5</li>
+                        <li>Monitoare 4K</li>
+                        <li>Căști gaming dedicate</li>
+                        <li>Băutură răcoritoare inclusă</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline full-width">Rezervă</a>
+                </article>
+
+                <article class="pricing-card pricing-card-featured reveal-on-scroll">
+                    <p class="pricing-tag hot">Popular</p>
+                    <h3>Silver Squad</h3>
+                    <p class="pricing-price">79 RON<span>/ 4 persoane</span></p>
+                    <ul class="pricing-features">
+                        <li>2 ore de joc</li>
+                        <li>Zonă dedicată de grup</li>
+                        <li>Acces la toate jocurile instalate</li>
+                        <li>Snack-uri & băuturi incluse</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary full-width">Alege acest pachet</a>
+                </article>
+
+                <article class="pricing-card reveal-on-scroll">
+                    <p class="pricing-tag">Pro</p>
+                    <h3>Gold Tournament</h3>
+                    <p class="pricing-price">149 RON<span>/ 6–8 persoane</span></p>
+                    <ul class="pricing-features">
+                        <li>3 ore de joc</li>
+                        <li>Setare mini-turneu</li>
+                        <li>Host dedicat & scoreboard</li>
+                        <li>Premii simbolice pentru câștigători</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline full-width">Organizează turneu</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section padding-xl section-dark">
+        <div class="container contact-grid">
+            <div class="contact-info reveal-on-scroll">
+                <p class="section-kicker">REZERVĂ O MASĂ</p>
+                <h2>Hai să jucăm!</h2>
+                <p class="section-text">
+                    Scrie-ne sau sună-ne pentru rezervări, întrebări despre pachete sau colaborări. Răspundem rapid și suntem
+                    deschiși la idei noi.
+                </p>
+
+                <div class="contact-details">
+                    <div>
+                        <span class="label">Telefon</span>
+                        <a href="tel:0790735014">0790 735 014</a>
+                    </div>
+                    <div>
+                        <span class="label">Email</span>
+                        <a href="mailto:contact@madgames.ro">contact@madgames.ro</a>
+                    </div>
+                    <div>
+                        <span class="label">Adresă</span>
+                        <p>Ploiești, Str. Exemplu 123 (se poate adapta)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper reveal-on-scroll">
+                <form class="contact-form">
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="name">Nume</label>
+                            <input type="text" id="name" placeholder="Nume complet" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="phone">Telefon</label>
+                            <input type="tel" id="phone" placeholder="Număr de telefon" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="people">Număr persoane</label>
+                            <input type="number" id="people" min="1" max="12" placeholder="Ex: 4">
+                        </div>
+                        <div class="form-field">
+                            <label for="package">Pachet</label>
+                            <select id="package">
+                                <option value="">Alege pachet</option>
+                                <option value="bronze">Bronze Session</option>
+                                <option value="silver">Silver Squad</option>
+                                <option value="gold">Gold Tournament</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="message">Mesaj / Detalii rezervare</label>
+                        <textarea id="message" rows="4" placeholder="Data, ora, preferințe de joc..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary full-width">Trimite cererea</button>
+                    <p class="form-note">Formular demo – pentru site final, se va conecta la backend / email.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <p>© <span id="year"></span> MAD GAMES – Sală de Gaming Ploiești. Concept de prezentare.</p>
+        <p class="footer-credit">Design concept realizat local în Visual Studio Code.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
